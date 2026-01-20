@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Interaktif</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="glass-header">
+        <nav>
+            <div class="logo">Porto<span class="gradient-text">folio</span>.</div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">Tentang</a></li>
+                <li><a href="#skills" class="nav-item">Keahlian</a></li>
+                <li><a href="#certifications" class="nav-item">Sertifikasi</a></li>
+                <li><a href="#credit" class="nav-item">Credit</a></li>
+            </ul>
+             <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Halo, Saya <span class="gradient-text">Dimas Aji Pratama</span></h1>
+                <p>Saya adalah seorang <span class="text-highlight">Graphic Designer</span>, <span class="text-highlight">UI/UX Designer</span>, dan <span class="text-highlight">Web Developer Pemula</span>.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Sainz11" class="btn-glow"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dimas-aji-pratama-1b6b6b/" class="btn-glow"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/d_pt4ma/" class="btn-glow"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-container">
+                    <div class="img-glow"></div>
+                    <div class="img-placeholder">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section glass-panel">
+        <h2 class="section-title">Keahlian <span class="gradient-text">Saya</span></h2>
+        <div class="skills-container">
+            <!-- Skill 1 -->
+            <div class="skill-card glass-card">
+                <div class="circle-container">
+                    <div class="circle" data-percent="75" data-color="#ff00cc">
+                        <svg>
+                            <circle cx="80" cy="80" r="70"></circle>
+                            <circle cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h3>75<span>%</span></h3>
+                        </div>
+                    </div>
+                    <div class="glow-ring"></div>
+                </div>
+                <h3 class="text">Graphic Designer</h3>
+            </div>
+            <!-- Skill 2 -->
+            <div class="skill-card glass-card">
+                <div class="circle-container">
+                    <div class="circle" data-percent="65" data-color="#3333ff">
+                        <svg>
+                            <circle cx="80" cy="80" r="70"></circle>
+                            <circle cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h3>65<span>%</span></h3>
+                        </div>
+                    </div>
+                     <div class="glow-ring" style="--glow-color: #3333ff;"></div>
+                </div>
+                <h3 class="text">UI/UX Designer</h3>
+            </div>
+            <!-- Skill 3 -->
+             <div class="skill-card glass-card">
+                <div class="circle-container">
+                    <div class="circle" data-percent="85" data-color="#00ffff">
+                        <svg>
+                            <circle cx="80" cy="80" r="70"></circle>
+                            <circle cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h3>85<span>%</span></h3>
+                        </div>
+                    </div>
+                     <div class="glow-ring" style="--glow-color: #00ffff;"></div>
+                </div>
+                <h3 class="text">Public Speaking</h3>
+            </div>
+             <!-- Skill 4 -->
+             <div class="skill-card glass-card">
+                <div class="circle-container">
+                    <div class="circle" data-percent="75" data-color="#ccff00">
+                        <svg>
+                            <circle cx="80" cy="80" r="70"></circle>
+                            <circle cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h3>75<span>%</span></h3>
+                        </div>
+                    </div>
+                     <div class="glow-ring" style="--glow-color: #ccff00;"></div>
+                </div>
+                <h3 class="text">Microsoft Office</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="cert-section">
+        <h2 class="section-title">Sertifikasi</h2>
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <h3>MS Office and Web Design Developmen</h3>
+                <p>Udemy</p>
+                <a href="https://www.udemy.com/certificate/UC-1e0e9829-4d26-4a6e-8e14-b9e16aa8d59a/" target="_blank" class="cert-link">Lihat Bukti</a>
+            </div>
+             <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-medal"></i></div>
+                <h3>UI/UX Design AdobeX</h3>
+                <p>Udemy</p>
+                <a href="https://www.udemy.com/certificate/UC-66d08493-7889-4962-96a1-05f4d2c77eea/" target="_blank" class="cert-link">Lihat Bukti</a>
+            </div>
+             <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                <h3>Build Bussiness Brand with Canva</h3>
+                <p>Coursera</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/DDQOYZP7WZZ1" target="_blank" class="cert-link">Lihat Bukti</a>
+            </div>
+             <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                <h3>Prompt Engineering with GitHub Copilot</h3>
+                <p>Microsoft</p>
+                <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0NzU3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTcyNTM1MV8xMDAwMDc3MF8xNzY4NjMwODQ0MTY3LnBuZyIsInVzZXJuYW1lIjoiRElNQVMgQUpJIFBSQVRBTUEifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7750%2FIntroduction%2520to%2520Prompt%2520Engineering%2520with%2520GitHub%2520Copilot%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1540155832748032684&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVjwrNMkw1tvSOikqyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAejVBmj8AAAA%3D" target="_blank" class="cert-link">Lihat Bukti</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credit Section -->
+    <section id="credit" class="credit-section">
+        <div class="credit-content glass-footer">
+            <p>Designed efficiently by <span class="gradient-text">Dimas Pratama</span>.</p>
+            <p>&copy; 1.2026</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

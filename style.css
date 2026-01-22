@@ -188,6 +188,12 @@ nav {
     line-height: 1.6;
 }
 
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
 .btn-glow {
     display: inline-flex;
     justify-content: center;
@@ -243,9 +249,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 8rem;
-    color: #fff;
     border: 2px solid rgba(255,255,255,0.2);
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% 20%;
 }
 
 @keyframes rotate {
@@ -529,4 +541,45 @@ section {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
     background-color: var(--neon-pink);
+}
+
+/* Skills Section Panel */
+.skills-section {
+    padding: 6rem 5%;
+}
+
+.glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    margin: 4rem 5%;
+}
+
+/* Certifications Section */
+.cert-section {
+    padding: 6rem 5%;
+}
+
+/* Glow Ring */
+.glow-ring {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid var(--neon-pink);
+    --glow-color: var(--neon-pink);
+    box-shadow: 0 0 20px var(--glow-color);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
 }

@@ -304,11 +304,13 @@ section {
     align-items: center;
     justify-content: center;
     transition: transform 0.4s ease, border-color 0.4s ease;
+    position: relative;
 }
 
 .skill-card:hover {
     transform: translateY(-15px) scale(1.05);
-    border-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(0, 255, 255, 0.6);
+    box-shadow : 0 0 30px rgba(0,255,255,0.4) inset 0 0 20px rgba(0,255,255,0.1);
 }
 
 .circle-container {
